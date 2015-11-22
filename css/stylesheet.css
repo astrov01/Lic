@@ -1,0 +1,96 @@
+h1 {
+    font-size: 25px;
+    text-align: center;
+}
+
+p{
+    color: whitesmoke;
+}
+.navbar-brand{
+    color:whitesmoke;
+}
+
+#UserName{
+    color: whitesmoke;
+}
+
+#nav{
+    background-color: #337AB7
+}
+
+#navbar{
+    background-color: #337AB7
+}
+
+#Dropdown{
+    color: #337AB7;
+}
+
+#navsalir{
+    background-color: #337AB7
+}
+
+body {
+
+    min-height: 900px;
+    padding-top: 5px;
+    position: relative;
+}
+
+footer {
+    color: whitesmoke;
+    background: #337AB7;
+    padding: 17px 0 18px 0;
+    border-top: 1px solid #337AB7;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #999;
+}
+footer a:hover {
+    color: #efefef;
+}
+
+#container{
+    color:black;
+    padding-top: 4%;
+}
+
+.dropdown{
+    color: #337AB7;
+}
+
+#button{
+    text-align: center;
+}
+
+#BRegistrar{
+    float: right;
+    position: relative;
+    top: 3px;
+    right: 15px;
+}
+
+#BReporte{
+    float: right;
+    position: relative;
+    top: 3px;
+    right: 30px;
+}
+
+table{
+    padding: 5px;
+    border-spacing: 5px;
+    border-collapse: separate;
+}
+
+tr{
+    padding: 5px;
+}
+
+td{
+    padding: 5px;
+}

@@ -17,7 +17,7 @@
     <!-- Custom styles for this template -->
     <link href="../css/stylesheet.css" rel="stylesheet">
 </head>
-<body  style="overflow-y:hidden">>
+<body>
 
 <!-- Fixed navbar -->
 <nav id="nav" class="navbar navbar-default navbar-fixed-top">
@@ -63,28 +63,156 @@
 
 <div id="container" class="container">
 
-    <h1>Control de alumnos</h1>
-
-    <div><a href="crear.html">+ Agregar un Alumno</a></div>
+    <h1>Editar alumno</h1>
 
 
     <table class="table table-responsive">
-        <thead>
+
         <tr>
-            <th>Matricula</th>
-            <th>Nombre</th>
-            <th>Licenciatura</th>
-            <th>Ciclo</th>
+            <td>Matricula</td>
+            <td><input class="form-control" type="text" name="nombre" value="AUTOMATICO"></td>
         </tr>
-        </thead>
-        <tbody>
+        <!--<tr>
+            <td>Programa</td>
+            <td>
+                <div class="form-group">
+                    <select class="form-control" id="" name="">
+                        <option value="">(Seleccione)</option>
+                        <option selected="selected" value="LCH">Licenciatura Comunicación Humana</option>
+                    </select>
+                </div>
+            </td>
+        </tr>-->
         <tr>
-            <td>A01186220</td>
-            <td>Victor Espinoza</td>
-            <td>LCH</td>
-            <td>Enero-Mayo 2016</td>
+            <td>Nombre(s)</td>
+            <td><input class="form-control" type="text" name="nombre" value=""></td>
         </tr>
-        </tbody>
+        <tr>
+            <td>Apellido Paterno</td>
+            <td><input class="form-control" type="text" name="ApellidoPaterno" value=""></td>
+        </tr>
+        <tr>
+            <td>Apellido Materno</td>
+            <td><input class="form-control" type="text" name="ApellidoMaterno" value=""></td>
+        </tr>
+        <tr>
+            <td>Sexo</td>
+            <td>
+                <div class="form-group">
+                    <select class="form-control" id="" name="">
+                        <option value="">(Seleccione)</option>
+                        <option selected="selected" value="Masculino">Masculino</option>
+                        <option value="Femenino">Femenino</option>
+                    </select>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>CURP</td>
+            <td><input class="form-control" type="text" name="Curp" value=""></td>
+        </tr>
+        <tr>
+            <td>RFC</td>
+            <td><input class="form-control" type="text" name="RFC" value=""></td>
+        </tr>
+        <tr>
+            <td>Dirección</td>
+            <td><input class="form-control" type="text" name="descripcion" value=""></td>
+        </tr>
+        <tr>
+            <td>Numero Interior</td>
+            <td><input class="form-control" type="text" name="descripcion" value=""></td>
+        </tr>
+        <tr>
+            <td>Numero Exterior</td>
+            <td><input class="form-control" type="text" name="descripcion" value=""></td>
+        </tr>
+        <tr>
+            <td>Colonia</td>
+            <td><input class="form-control" type="text" name="descripcion" value=""></td>
+        </tr>
+        <tr>
+            <td>Codigo Postal</td>
+            <td><input class="form-control" type="text" name="descripcion" value=""></td>
+        </tr>
+        <tr>
+            <td>Fecha de Nacimiento</td>
+            <td><input class="form-control" type="date" name="nombre" value=""></td>
+        </tr>
+        <tr>
+            <td>Lugar de Nacimiento</td>
+            <td><input class="form-control" type="text" name="nombre" value=""></td>
+        </tr>
+        <tr>
+            <td>Número Telefónico</td>
+            <td><input class="form-control" type="text" name="nombre" value=""></td>
+        </tr>
+        <tr>
+            <td>Celular</td>
+            <td><input class="form-control" type="text" name="nombre" value=""></td>
+        </tr>
+        <tr>
+            <td>Número de emergencia</td>
+            <td><input class="form-control" type="text" name="nombre" value=""></td>
+        </tr>
+        <tr>
+            <td>Practicas</td>
+            <td><input class="form-control" type="text" name="nombre" value=""></td>
+        </tr>
+        <tr>
+            <td>Fecha de registro</td>
+            <td><input class="form-control" type="date" name="nombre" value=""></td>
+        </tr>
+        <tr>
+            <td>Ultima Actualización</td>
+            <td><input class="form-control" type="date" name="nombre" value=""></td>
+        </tr>
+        <tr>
+            <td>Licencia Profesional</td>
+            <td><input class="form-control" type="text" name="nombre" value=""></td>
+        </tr>
+        <tr>
+            <td>Ciudad</td>
+            <td><input class="form-control" type="text" name="nombre" value=""></td>
+        </tr>
+        <tr>
+            <td>Estado</td>
+            <td><input class="form-control" type="text" name="nombre" value=""></td>
+        </tr>
+        <tr>
+            <td>País</td>
+            <td><input class="form-control" type="text" name="nombre" value=""></td>
+        </tr>
+        <tr>
+            <td>Correo Electrónico</td>
+            <td><input class="form-control" type="text" name="nombre" value=""></td>
+        </tr>
+        <tr>
+            <td>Escuela de Procedencia</td>
+            <td><input class="form-control" type="text" name="nombre" value=""></td>
+        </tr>
+        <tr>
+            <td>¿Cómo te enteraste de este programa?</td>
+            <td>
+                <div class="form-group">
+                    <select class="form-control" id="" name="">
+                        <option value="">(Seleccione)</option>
+                        <option selected="selected" value="Referencia">Referencia Personal</option>
+                        <option value="Internet">Internet</option>
+                        <option value="Redes">Redes Sociales</option>
+                        <option value="Impreso">Propaganda Impresa</option>
+                        <option value="Expo">Expo UACH</option>
+                        <option value="Visita">Visita a la institución</option>
+                    </select>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><input onclick="window.location = 'listar.html'" class="btn btn-primary" type="submit" value="Guardar"></td>
+        </tr>
+        <tr>
+            <td>Fin de llenado de formato</td>
+        </tr>
     </table>
 
 </div> <!-- /container -->

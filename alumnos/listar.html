@@ -17,7 +17,7 @@
     <!-- Custom styles for this template -->
     <link href="../css/stylesheet.css" rel="stylesheet">
 </head>
-<body  style="overflow-y:hidden">>
+<body  style="overflow-y:hidden">
 
 <!-- Fixed navbar -->
 <nav id="nav" class="navbar navbar-default navbar-fixed-top">
@@ -65,14 +65,16 @@
 
     <h1>Control de alumnos</h1>
 
-    <div><a href="crear.html">+ Agregar un Alumno</a></div>
+    <button onclick="window.location = 'crear.html'" class="btn btn-primary" type="button" value="">Agregar Alumno</button>
 
 
     <table class="table table-responsive">
         <thead>
         <tr>
             <th>Matricula</th>
-            <th>Nombre</th>
+            <th>Nombre(s)</th>
+            <th>Apellido Paterno</th>
+            <th>Apellido Materno</th>
             <th>Licenciatura</th>
             <th>Ciclo</th>
         </tr>

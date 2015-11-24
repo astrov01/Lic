@@ -80,6 +80,13 @@ footer a:hover {
     right: 30px;
 }
 
+#BDesactivar{
+    float: right;
+    position: relative;
+    top: 3px;
+    right: 30px;
+}
+
 table{
     padding: 5px;
     border-spacing: 5px;

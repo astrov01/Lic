@@ -65,155 +65,252 @@
 
     <h1>Editar alumno</h1>
 
+    <table style="width: 100%" class="table table-responsive">
+    <tr>
+        <td>
+            <div class="form-group">
+                <label for="student_id">Matricula</label>
+                <input class="form-control" id="student_id" name="student_id" value="A01186220" type="text">
+            </div>
+        </td>
+    </tr>
 
-    <table class="table table-responsive">
+    <tr>
+        <td>
+            <div class="form-group">
+                <label for="student_FirstName">Nombre(s)</label>
+                <input class="form-control" id="student_FirstName" name="student.FirstName" value="Victor Alexis" type="text">
+            </div>
+        </td>
+        <td>
+            <div class="form-group">
+                <label for="student_FatherLastName">Apellido paterno</label>
+                <input class="form-control" id="student_FatherLastName" name="student.FatherLastName" value="Espinoza" type="text">
+            </div>
+        </td>
+        <td>
+            <div class="form-group">
+                <label for="student_MotherLastName">Apellido materno</label>
+                <input class="form-control" id="student_MotherLastName" name="student.MatherLastName" value="Cervantes" type="text">
+            </div>
+        </td>
+    </tr>
 
-        <tr>
-            <td>Matricula</td>
-            <td><input class="form-control" type="text" name="nombre" value="AUTOMATICO"></td>
-        </tr>
-        <!--<tr>
-            <td>Programa</td>
-            <td>
-                <div class="form-group">
-                    <select class="form-control" id="" name="">
-                        <option value="">(Seleccione)</option>
-                        <option selected="selected" value="LCH">Licenciatura Comunicación Humana</option>
-                    </select>
-                </div>
-            </td>
-        </tr>-->
-        <tr>
-            <td>Nombre(s)</td>
-            <td><input class="form-control" type="text" name="nombre" value=""></td>
-        </tr>
-        <tr>
-            <td>Apellido Paterno</td>
-            <td><input class="form-control" type="text" name="ApellidoPaterno" value=""></td>
-        </tr>
-        <tr>
-            <td>Apellido Materno</td>
-            <td><input class="form-control" type="text" name="ApellidoMaterno" value=""></td>
-        </tr>
-        <tr>
-            <td>Sexo</td>
-            <td>
-                <div class="form-group">
-                    <select class="form-control" id="" name="">
-                        <option value="">(Seleccione)</option>
-                        <option selected="selected" value="Masculino">Masculino</option>
-                        <option value="Femenino">Femenino</option>
-                    </select>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td>CURP</td>
-            <td><input class="form-control" type="text" name="Curp" value=""></td>
-        </tr>
-        <tr>
-            <td>RFC</td>
-            <td><input class="form-control" type="text" name="RFC" value=""></td>
-        </tr>
-        <tr>
-            <td>Dirección</td>
-            <td><input class="form-control" type="text" name="descripcion" value=""></td>
-        </tr>
-        <tr>
-            <td>Numero Interior</td>
-            <td><input class="form-control" type="text" name="descripcion" value=""></td>
-        </tr>
-        <tr>
-            <td>Numero Exterior</td>
-            <td><input class="form-control" type="text" name="descripcion" value=""></td>
-        </tr>
-        <tr>
-            <td>Colonia</td>
-            <td><input class="form-control" type="text" name="descripcion" value=""></td>
-        </tr>
-        <tr>
-            <td>Codigo Postal</td>
-            <td><input class="form-control" type="text" name="descripcion" value=""></td>
-        </tr>
-        <tr>
-            <td>Fecha de Nacimiento</td>
-            <td><input class="form-control" type="date" name="nombre" value=""></td>
-        </tr>
-        <tr>
-            <td>Lugar de Nacimiento</td>
-            <td><input class="form-control" type="text" name="nombre" value=""></td>
-        </tr>
-        <tr>
-            <td>Número Telefónico</td>
-            <td><input class="form-control" type="text" name="nombre" value=""></td>
-        </tr>
-        <tr>
-            <td>Celular</td>
-            <td><input class="form-control" type="text" name="nombre" value=""></td>
-        </tr>
-        <tr>
-            <td>Número de emergencia</td>
-            <td><input class="form-control" type="text" name="nombre" value=""></td>
-        </tr>
-        <tr>
-            <td>Practicas</td>
-            <td><input class="form-control" type="text" name="nombre" value=""></td>
-        </tr>
-        <tr>
-            <td>Fecha de registro</td>
-            <td><input class="form-control" type="date" name="nombre" value=""></td>
-        </tr>
-        <tr>
-            <td>Ultima Actualización</td>
-            <td><input class="form-control" type="date" name="nombre" value=""></td>
-        </tr>
-        <tr>
-            <td>Licencia Profesional</td>
-            <td><input class="form-control" type="text" name="nombre" value=""></td>
-        </tr>
-        <tr>
-            <td>Ciudad</td>
-            <td><input class="form-control" type="text" name="nombre" value=""></td>
-        </tr>
-        <tr>
-            <td>Estado</td>
-            <td><input class="form-control" type="text" name="nombre" value=""></td>
-        </tr>
-        <tr>
-            <td>País</td>
-            <td><input class="form-control" type="text" name="nombre" value=""></td>
-        </tr>
-        <tr>
-            <td>Correo Electrónico</td>
-            <td><input class="form-control" type="text" name="nombre" value=""></td>
-        </tr>
-        <tr>
-            <td>Escuela de Procedencia</td>
-            <td><input class="form-control" type="text" name="nombre" value=""></td>
-        </tr>
-        <tr>
-            <td>¿Cómo te enteraste de este programa?</td>
-            <td>
-                <div class="form-group">
-                    <select class="form-control" id="" name="">
-                        <option value="">(Seleccione)</option>
-                        <option selected="selected" value="Referencia">Referencia Personal</option>
-                        <option value="Internet">Internet</option>
-                        <option value="Redes">Redes Sociales</option>
-                        <option value="Impreso">Propaganda Impresa</option>
-                        <option value="Expo">Expo UACH</option>
-                        <option value="Visita">Visita a la institución</option>
-                    </select>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="2"><input onclick="window.location = 'listar.html'" class="btn btn-primary" type="submit" value="Guardar"></td>
-        </tr>
-        <tr>
-            <td>Fin de llenado de formato</td>
-        </tr>
-    </table>
+
+    <tr>
+        <td>
+            <div class="form-group">
+                <label for="student_Sex">Sexo</label>
+                <select class="form-control" id="student_Sex" name="">
+                    <option value="">(Seleccione)</option>
+                    <option selected="selected" value="M">Masculino</option>
+                    <option value="F">Femenino</option>
+                </select>
+            </div>
+        </td>
+        <td colspan="2">
+            <div class="form-group">
+                <label for="student_RFC">RFC</label>
+                <input class="form-control" id="student_RFC" name="" value="qwe" type="text">
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <div class="form-group">
+                <label for="student_birthdate">Fecha de nacimiento</label>
+                <input type="date" class="form-control" data-val="true" data-val-date="The field Fecha de nacimiento must be a date." data-val-required="The Fecha de nacimiento field is required." id="student_birthdate" name="" value="1/1/2000">
+            </div>
+        </td>
+        <td>
+            <div class="form-group">
+                <label for="student_placeOfBirth">Lugar de nacimiento</label>
+                <input class="form-control" id="student_placeOfBirth" name="" value="Chihuahua" type="text">
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="3">
+            <div class="form-group">
+                <label for="student_CURP">CURP</label>
+                <input class="form-control" id="student_CURP" name="" value="qokndewqoind" type="text">
+            </div>
+        </td>
+    </tr>
+
+
+    <tr>
+        <td>
+            <div class="form-group">
+                <label for="student_Address">Direccion</label>
+                <input class="form-control" id="student_Address" name="" value="San Cristobal" type="text">
+            </div>
+        </td>
+        <td>
+            <div class="form-group">
+                <label for="student_interiorNumber">Numero interior</label>
+                <input class="form-control" data-val="true" data-val-number="The field Numero interior must be a number." data-val-required="The Numero interior field is required." id="student_interiorNumber" name="" value="4323" type="text">
+            </div>
+        </td>
+        <td>
+            <div class="form-group">
+                <label for="student_colony">Colonia</label>
+                <input class="form-control" id="student_colony" name="" value="Fracc. El vallecito" type="text">
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <div class="form-group">
+                <label for="student_zipCode">Codigo postal</label>
+                <input class="form-control" data-val="true" data-val-number="The field Codigo postal must be a number." data-val-required="The Codigo postal field is required." id="student_zipCode" name="" value="31300" type="text">
+            </div>
+        </td>
+        <td>
+            <div class="form-group">
+                <label for="student_exteriorNumber">Numero exterior</label>
+                <input class="form-control" data-val="true" data-val-number="The field Numero exterior must be a number." data-val-required="The Numero exterior field is required." id="student_exteriorNumber" name="" value="0" type="text">
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <div class="form-group">
+                <label for="student_country">País</label>
+                <select class="form-control" data-val="true" data-val-number="The field Estado must be a number." data-val-required="The Estado field is required." id="student_country" name="">
+                    <option value="">(Seleccione)</option>
+                    <option selected="selected" value="2">México</option>
+                    <option>Estados Unidos</option>
+                    <option>Cánada</option>
+                </select>
+            </div>
+        </td>
+        <td>
+            <div class="form-group">
+                <label for="student_countryState">Estado</label>
+                <select class="form-control" data-val="true" data-val-number="The field Estado must be a number." data-val-required="The Estado field is required." id="student_countryState" name="">
+                    <option value="">(Seleccione)</option>
+                    <option selected="selected" value="2">Chihuahua</option>
+                    <option>Sonora</option>
+                    <option>Durango</option>
+                </select>
+            </div>
+        </td>
+        <td>
+            <div class="form-group">
+                <label for="student_city">Ciudad</label>
+                <select class="form-control" data-val="true" data-val-number="The field Ciudad must be a number." data-val-required="The Ciudad field is required." id="student_city" name="patient.FK_cityId">
+                    <option value="">(Seleccione)</option>
+                    <option selected="selected" value="1">Chihuahua</option>
+                </select>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <div class="form-group">
+                <label for="student_phonenumber">Numero telefónico</label>
+                <input class="form-control" data-val="true" data-val-number="The field Numero exterior must be a number." data-val-required="The Numero exterior field is required." id="student_phonenumber" name="patient.exteriorNumber" value="6143428956" type="text">
+            </div>
+        </td>
+        <td>
+            <div class="form-group">
+                <label for="student_cellphonenumber">Celular</label>
+                <input class="form-control" data-val="true" data-val-number="The field Numero exterior must be a number." data-val-required="The Numero exterior field is required." id="student_cellphonenumber" name="patient.exteriorNumber" value="6149584851" type="text">
+            </div>
+        </td>
+        <td>
+            <div class="form-group">
+                <label for="student_emergencyphonenumber">Numero de emergencia</label>
+                <input class="form-control" data-val="true" data-val-number="The field Numero exterior must be a number." data-val-required="The Numero exterior field is required." id="student_emergencyphonenumber" name="patient.exteriorNumber" value="6141458596" type="text">
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <div class="form-group">
+                <label for="student_email">Correo Electrónico</label>
+                <input class="form-control" data-val="true" data-val-number="The field Numero exterior must be a number." data-val-required="The Numero exterior field is required." id="student_email" name="" value="vic@gmail.com" type="text">
+            </div>
+        </td>
+        <td>
+            <div class="form-group">
+                <label for="student_OriginSchool">Escuela de procedencia</label>
+                <input class="form-control" data-val="true" data-val-number="The field Numero exterior must be a number." data-val-required="The Numero exterior field is required." id="student_OriginSchool" name="" value="Prepa" type="text">
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <div class="form-group">
+                <label for="student_actualization">Ultima actualización</label>
+                <input class="form-control" id="student_actualization" name="" value="" type="date">
+            </div>
+        </td>
+        <td>
+            <div class="form-group">
+                <label for="student_practices">Practicas</label>
+                <input class="form-control" id="student_practices" name="" value="XX" type="text">
+            </div>
+        </td>
+        <td>
+            <div class="form-group">
+                <label for="student_DateRegistration">Fecha de registro</label>
+                <input class="form-control" data-val="true" data-val-number="The field Numero exterior must be a number." data-val-required="The Numero exterior field is required." id="student_DateRegistration" name="" value="0" type="date">
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2">
+            <div class="form-group">
+                <label for="student_profLicence">Licencia Profesional</label>
+                <input class="form-control" data-val="true" data-val-number="The field Numero exterior must be a number." data-val-required="The Numero exterior field is required." id="student_profLicence" name="" value="0" type="text">
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <div class="form-group">
+                <label for="student_HearAboutSchool">¿Cómo te enteraste de este programa?</label>
+                <select class="form-control" data-val="true" data-val-number="The field Estado civil de los padres must be a number." data-val-required="The Estado civil de los padres field is required." id="student_HearAboutSchool" name="">
+                    <option value="">(Seleccione)</option>
+                    <option value="Referencia">Referencia Personal</option>
+                    <option value="Internet">Internet</option>
+                    <option value="Redes">Redes Sociales</option>
+                    <option value="Impreso">Propaganda Impresa</option>
+                    <option value="Expo">Expo UACH</option>
+                    <option value="Visita">Visita a la institución</option>
+                </select>
+            </div>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <div class="form-group">
+                <label for="student_registrationDate">Fecha de inscripción</label>
+                <input class="form-control" data-val="true" data-val-date="The field Fecha de inscripción must be a date." data-val-required="The Fecha de inscripción field is required." id="student_registrationDate" name="" value="1/1/2015 12:00:00 AM" type="date">
+            </div>
+        </td>
+    </tr>
+
+
+    <tr>
+        <td colspan="3" id="button"><input onclick="window.location = 'listar.html'" class="btn btn-primary" type="submit" value="Guardar"></td>
+    </tr>
+    <tr>
+        <td>Fin de llenado de formato</td>
+    </tr>
+</table>
 
 </div> <!-- /container -->
 

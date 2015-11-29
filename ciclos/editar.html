@@ -68,23 +68,35 @@
 
     <table class="table table-responsive">
         <tr>
-            <td>Nombre del Ciclo:</td>
-            <td><input type="text" name="nombre" value=""></td>
+            <td>
+                <div>
+                    <label>Nombre del Ciclo:</label>
+                    <input class="form-control" type="text" name="nombre" value="">
+                </div>
+            </td>
+            <td>
+                <div>
+                    <label>Tipo de Ciclo:</label>
+                    <input class="form-control" type="text" name="nombre" value="">
+                </div>
+            </td>
         </tr>
         <tr>
-            <td>Tipo de Ciclo:</td>
-            <td><input type="text" name="descripcion" value=""></td>
+            <td>
+                <div>
+                    <label>Fecha de Inicio:</label>
+                    <input class="form-control" type="date" name="nombre" value="">
+                </div>
+            </td>
+            <td>
+                <div>
+                    <label>Fecha de Término:</label>
+                    <input class="form-control" type="date" name="nombre" value="">
+                </div>
+            </td>
         </tr>
         <tr>
-            <td>Fecha de Inicio:</td>
-            <td><input type="date" name="nombre" value=""></td>
-        </tr>
-        <tr>
-            <td>Fecha de Término:</td>
-            <td><input type="date" name="descripcion" value=""></td>
-        </tr>
-        <tr>
-            <td colspan="2"><input onclick="window.location = 'listar.html'" class="btn btn-primary" type="submit" value="Guardar"></td>
+            <td colspan="2" id="button"><input onclick="window.location = 'listar.html'" class="btn btn-primary" type="submit" value="Guardar"></td>
         </tr>
     </table>
 

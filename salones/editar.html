@@ -67,18 +67,26 @@
     <h1>Editar Salón</h1>
 
 
-    <table class="table table-responsive">
+    <table style="width: 100%" class="table table-responsive">
         <tr>
-            <td>Nombre de Salón</td>
-            <td><input type="text" name="nombre" value=""></td>
+            <td>
+                <div class="form-group">
+                    <label for="ClassroomName">Nombre de Salón</label>
+                    <input class="form-control" id="ClassroomName" type="text" name="nombre" value="">
+                </div>
+            </td>
         </tr>
 
         <tr>
-            <td>Uso</td>
-            <td><input type="text" name="descripcion" value=""></td>
+            <td>
+                <div class="form-group">
+                    <label for="ClassroomUse">Uso</label>
+                    <input class="form-control" type="text" id="ClassroomUse" name="descripcion" value="">
+                </div>
+            </td>
         </tr>
         <tr>
-            <td colspan="2"><input onclick="window.location = 'listar.html'" class="btn btn-primary" type="submit" value="Guardar"></td>
+            <td colspan="3" id="button"><input onclick="window.location = 'listar.html'" class="btn btn-primary" type="submit" value="Guardar"></td>
         </tr>
     </table>
 

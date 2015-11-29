@@ -67,45 +67,93 @@
     <h1>Editar Materia</h1>
 
 
-    <table class="table table-responsive">
+    <table style="width: 100%" class="table table-responsive">
 
         <tr>
-            <td>Nombre de la materia</td>
-            <td><input class="form-control" type="text" name="nombre" value=""></td>
+            <td>
+                <div><label>Nombre de la materia</label>
+                    <input class="form-control" type="text" name="nombre" value="">
+                </div>
+            </td>
+            <td>
+                <div>
+                    <label>Clave</label>
+                    <input class="form-control" type="text" name="descripcion" value="">
+                </div>
+            </td>
         </tr>
+
         <tr>
-            <td>Clave</td>
-            <td><input class="form-control" type="text" name="descripcion" value=""></td>
+            <td>
+                <div><label>Número de creditos</label>
+                    <input class="form-control" type="text" name="nombre" value="">
+                </div>
+            </td>
+            <td>
+                <div>
+                    <label>Materias Predecesoras</label>
+                    <input class="form-control" type="text" name="descripcion" value="">
+                </div>
+            </td>
         </tr>
+
         <tr>
-        <tr>
-            <td>Numero de Créditos</td>
-            <td><input class="form-control" type="text" name="nombre" value=""></td>
+            <td>
+                <!--<div><label>Tipo de materia</label>
+                    <form role="form">
+                        <label class="checkbox-inline"><input type="checkbox" value="">Básica</label>
+                        <label class="checkbox-inline"><input type="checkbox" value="">Profesional</label>
+                        <label class="checkbox-inline"><input type="checkbox" value="">Específica</label>
+                        <label class="checkbox-inline"><input type="checkbox" value="">Optativa</label>
+                        <label class="checkbox-inline"><input type="checkbox" value="">Extracurricular</label>
+                    </form>
+                </div>-->
+                <div class="form-group">
+                    <label for="subject_type">Tipo de materia</label>
+                    <select class="form-control" data-val="true" data-val-number="The field Estado civil de los padres must be a number." data-val-required="The Estado civil de los padres field is required." id="subject_type" name="">
+                        <option value="">(Seleccione)</option>
+                        <option value="Referencia">Básica</option>
+                        <option value="Internet">Profesional</option>
+                        <option value="Redes">Específica</option>
+                        <option value="Impreso">Optativa</option>
+                        <option value="Expo">Extracurricular</option>
+                    </select>
+                </div>
+            </td>
+            <td>
+                <div>
+                    <label>Horas Practicas</label>
+                    <input class="form-control" type="text" name="descripcion" value="">
+                </div>
+            </td>
         </tr>
+
         <tr>
-            <td>Materias Predecesoras</td>
-            <td><input class="form-control" type="text" name="descripcion" value=""></td>
+            <td>
+                <div>
+                    <label>Horas Practicas</label>
+                    <input class="form-control" type="text" name="descripcion" value="">
+                </div>
+            </td>
+            <td>
+                <div>
+                    <label>Horas Teóricas</label>
+                    <input class="form-control" type="text" name="nombre" value="">
+                </div>
+            </td>
         </tr>
+
         <tr>
-        <tr>
-            <td>Tipo de materia</td>
-            <td><input class="checkbox" type="checkbox" name="Basica" value="Bike">Básica<br>
-                <input class="checkbox" type="checkbox" name="Pro" value="Car">Profesional<br>
-                <input class="checkbox" type="checkbox" name="Especifica" value="Boat">Específica<br>
-                <input class="checkbox" type="checkbox" name="Optativa" value="Boat">Optativa<br>
-                <input class="checkbox" type="checkbox" name="Extra" value="Boat">Extracurricular</td>
+            <td>
+                <div>
+                    <label>Cupo Máximo de Alumnos</label>
+                    <input class="form-control" type="text" name="descripcion" value="">
+                </div>
+            </td>
         </tr>
+
         <tr>
-            <td>Horas Prácticas</td>
-            <td><input class="form-control" type="text" name="descripcion" value=""></td>
-        </tr>
-        <tr>
-        <tr>
-            <td>Horas Teóricas</td>
-            <td><input class="form-control" type="text" name="nombre" value=""></td>
-        </tr>
-        <tr>
-            <td colspan="2"><input onclick="window.location = 'listar.html'" class="btn btn-primary" type="submit" value="Guardar"></td>
+            <td colspan="2" id="button"><input onclick="window.location = 'listar.html'" class="btn btn-primary" type="submit" value="Guardar"></td>
         </tr>
     </table>
 

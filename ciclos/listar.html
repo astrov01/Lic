@@ -84,7 +84,11 @@
                 <td>18 Enero 2016</td>
                 <td>22 Mayo 2016</td>
                 <td><input onclick="window.location = 'editar.html'" id="BRegistrar" class="btn btn-primary" type="submit" value="Editar"></td>
-                <td><input onclick="window.location = ''" id="BDesactivar" class="btn btn-primary" type="submit" value="Desactivar"></td>
+                <td><form name=myform>
+                    <input type=button id="bdesactivar" class="btn btn-primary" value="Desactivar"
+                           onClick="alert('Se ha desactivado este ciclo.')">
+                    </form>
+                </td>
             </tr>
         </tbody>
     </table>

@@ -16,6 +16,18 @@
 
     <!-- Custom styles for this template -->
     <link href="../css/stylesheet.css" rel="stylesheet">
+
+    <!-- Bootstrap core JS -->
+    <link href="../js/bootstrap.min.js" rel="script">
+
+    <!-- Custom scripts for this template -->
+
+    <script type="text/javascript">
+        function modificarElemento() {
+            document.bgColor = document.formulario.color.value;
+        }
+    </script>
+
 </head>
 <body  style="overflow-y:hidden">
 
@@ -69,25 +81,36 @@
 
     <button onclick="window.location = 'crear.html'" class="btn btn-primary" type="button" value="">Agregar Salón</button>
 
-    <table class="table table-responsive">
+    <table class="table table-responsive table-hover">
         <thead>
         <tr>
-            <th>Nombre</th>
-            <th>Uso</th>
+            <th>Numero de salón</th>
+            <th>Nombre o descripción</th>
+            <th>Ubicación</th>
+            <th>Uso principal</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <td>3012</td>
-            <td>Practicas</td>
             <td><input onclick="window.location = 'editar.html'" id="BRegistrar" class="btn btn-primary" type="submit" value="Editar"></td>
             <td><input onclick="window.location = ''" id="BDesactivar" class="btn btn-primary" type="submit" value="Desactivar"></td>
+            <td>3012</td>
+            <td>Afasias</td>
+            <td>Tercer piso</td>
+            <td>Practicas</td>
         </tr>
         <tr>
             <td>3000</td>
             <td>Clases</td>
             <td><input onclick="window.location = 'editar.html'" id="BRegistrar" class="btn btn-primary" type="submit" value="Editar"></td>
-            <td><input onclick="window.location = ''" id="BDesactivar" class="btn btn-primary" type="submit" value="Desactivar"></td>
+            <td>
+                <div>
+                <form name=myform>
+                <input type=button id="BDesactivar" class="btn btn-primary" value="Desactivar"
+                       onClick="alert('Se ha desactivado el salon.')" onclick="modificarElemento()">
+            </form>
+                </div>
+            </td>
         </tr>
         </tbody>
     </table>

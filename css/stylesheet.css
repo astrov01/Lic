@@ -74,17 +74,17 @@ footer a:hover {
 }
 
 #BReporte{
-    float: right;
+    float: left;
     position: relative;
     top: 3px;
-    right: 30px;
+    left: 30px;
 }
 
 #BDesactivar{
-    float: right;
+    float: left;
     position: relative;
     top: 3px;
-    right: 30px;
+    left: 30px;
 }
 
 table{
